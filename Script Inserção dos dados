@@ -1,0 +1,10 @@
+USE Pet_Shop;
+
+INSERT INTO pets (Nome, Especie, Idade, Peso, Dono, Cidade) VALUES 
+('Rex', 'cachorro', 5, 20.5, 'Ana', 'Rio de Janeiro'),
+('Mimi', 'gato', 3, 4.2, 'Bruno', 'São Paulo'),
+('Thor', 'cachorro', 2, 18.8, 'Carla', 'Belo Horizonte'),
+('Bella', 'cachorro', 7, 25.0, 'Ana', 'Rio de Janeiro'),
+('Luna', 'gato', 1, 3.8, 'Daniel', 'Curitiba'),
+('Pingo', 'cachoro', 4, 21.3, 'Carla', 'Belo Horizonte'),
+('Garfield', 'gato', 6, 6.5, 'Bruno', 'São Paulo');
