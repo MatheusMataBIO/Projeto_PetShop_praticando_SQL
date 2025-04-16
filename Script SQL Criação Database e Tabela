@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS Pet_Shop;
+
+USE Pet_Shop;
+
+CREATE TABLE pets (
+	idPets INT AUTO_INCREMENT PRIMARY KEY,
+    Nome VARCHAR(45),
+    Especie VARCHAR(45),
+    Idade INT,
+    Peso FLOAT,
+    Dono VARCHAR(45),
+    Cidade VARCHAR(45)
+);
